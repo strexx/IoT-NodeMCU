@@ -17,11 +17,11 @@ router.post('/', function(req, res) {
         var distance = req.body.input || lastObject.input.distance;
 
         if (distance >= 100) {
-            var ledValue = "red";
+            var ledValue = "green";
         } else if (distance > 49 && distance < 101) {
             var ledValue = "yellow";
         } else {
-            var ledValue = "green";
+            var ledValue = "red";
         }
 
         var newdata = {
