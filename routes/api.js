@@ -16,11 +16,16 @@ router.post('/', function(req, res) {
         
         var distance = req.body.input || lastObject.input.distance;
 
+
+        // Range distance from television in centimeters
         if (distance >= 100) {
+            // Enough distance from television
             var ledValue = "green";
         } else if (distance > 49 && distance < 101) {
+            // Almost too close to television
             var ledValue = "yellow";
         } else {
+            // Too close to television 0 to 49 CM
             var ledValue = "red";
         }
 
