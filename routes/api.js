@@ -10,16 +10,29 @@ router.post('/', function(req, res) {
         now = moment().format('YYYY-MM-DD HH:mm:ss');
 
     jsonfile.readFile(file, function(err, obj) {
-        var lastObject = getLastObject(obj),
-            newdata = {
-                time: now,
-                input: {
-                    distance: req.body.input || lastObject.input.distance
-                },
-                output: {
-                    led: req.body.output || lastObject.output.led
-                }
-            };
+        var lastObject = getLastObject(obj);
+
+        /* LA SERVER LOGIC */
+        
+        var distance = req.body.input || lastObject.input.distance;
+
+        if (distance >= 100) {
+            var ledValue = "red";
+        } else if (distance > 49 && distance < 101) {
+            var ledValue = "yellow";
+        } else {
+            var ledValue = "green";
+        }
+
+        var newdata = {
+            time: now,
+            input: {
+                distance: distance
+            },
+            output: {
+                led: req.body.output || ledValue
+            }
+        };
         console.log(req.body);
         obj.push(newdata);
         jsonfile.writeFileSync(file, obj);

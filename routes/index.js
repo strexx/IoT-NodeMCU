@@ -13,8 +13,8 @@ router.get('/', function(req, res, next) {
     }
 
     res.render('main', {
-        title: 'Status leds',
-        description: 'On this page you can see the status of the leds',
+        title: 'Overview page',
+        description: 'See the status of leds and sensordata',
         data: getLastObject(obj)
     });
   });
