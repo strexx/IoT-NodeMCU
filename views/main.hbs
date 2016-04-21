@@ -4,23 +4,25 @@
 </section>
 
 <section class="leds">
-    <h2>Status</h2><br />
+    <h2>Status</h2>
     <div class="{{data.output.led}} status"></div>
     <form action="/api" method="post">
         <select name="output">
-            <option value="red">Get more distance from television</option>
-            <option value="orange">Warning: almost too close to television</option>
-            <option value="green">Enough distance from television</option>
+            <option value="red">Time for a break!</option>
+            <option value="yellow">Almost time for a break...</option>
+            <option value="green">Let's be productive!</option>
         </select>
-        <button type="submit">Update</button>
+        <button type="submit">
+            Update
+        </button>
     </form>
 </section>
 
 <section class="sensors">
     <section>
-        <h2>Status ESP</h2><br />
-        <p>Time updated: {{data.time}}</p><br />
-        <p>Color led: {{data.output.led}}</p><br />
+        <h2>Status ESP</h2>
+        <p>Time updated: {{data.time}}</p>
+        <p>Color led: {{data.output.led}}</p>
         <p>Distance sensor: {{data.input.distance}} CM</p>
     </section>
 </section>

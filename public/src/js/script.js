@@ -16,8 +16,8 @@ d3.json("/api/data", function(error, data) {
         },
         axis: {
             x: {
-                //type: 'category',
-                //categories: time
+                type: 'category',
+                categories: time
             }
 
         }

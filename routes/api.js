@@ -20,7 +20,7 @@ router.post('/', function(req, res) {
                     led: req.body.output || lastObject.output.led
                 }
             };
-        console.log(req.body)
+        console.log(req.body);
         obj.push(newdata);
         jsonfile.writeFileSync(file, obj);
         res.redirect('/');
@@ -31,11 +31,12 @@ router.get('/status/input', function(req, res) {
     var file = 'resources/data.json';
 
     jsonfile.readFile(file, function(err, obj) {
-        res.send('{"distance":"' + getLastObject(obj).input.distance + '"}');
+        res.send('{"distance":' + getLastObject(obj).input.distance + '}');
     });
 });
 
 router.get('/status/output', function(req, res) {
+    var name = req.params.input;
     var file = 'resources/data.json';
 
     jsonfile.readFile(file, function(err, obj) {

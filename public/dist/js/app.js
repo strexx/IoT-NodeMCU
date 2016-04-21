@@ -1,1 +1,1 @@
-"use strict";d3.json("/api/data",function(n,s){var a=[],t=["sensor"];s.forEach(function(n,s){a.push(n.time),t.push(n.input.distance),console.log(t)});c3.generate({data:{columns:[t]},axis:{x:{}}})});
+"use strict";d3.json("/api/data",function(t,a){var e=[],s=["sensor"];a.forEach(function(t,a){e.push(t.time),s.push(t.input.distance),console.log(s)});c3.generate({data:{columns:[s]},axis:{x:{type:"category",categories:e}}})});

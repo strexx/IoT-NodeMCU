@@ -11,6 +11,7 @@ router.get('/', function(req, res, next) {
         res.status(404);
         next();
     }
+
     res.render('main', {
         title: 'Status leds',
         description: 'On this page you can see the status of the leds',
