@@ -1,0 +1,26 @@
+<section class="chart">
+    <h2>Chart</h2>
+    <div id="chart"></div>
+</section>
+
+<section class="leds">
+    <h2>Status</h2><br />
+    <div class="{{data.output.led}} status"></div>
+    <form action="/api" method="post">
+        <select name="output">
+            <option value="red">Get more distance from television</option>
+            <option value="orange">Warning: almost too close to television</option>
+            <option value="green">Enough distance from television</option>
+        </select>
+        <button type="submit">Update</button>
+    </form>
+</section>
+
+<section class="sensors">
+    <section>
+        <h2>Status ESP</h2><br />
+        <p>Time updated: {{data.time}}</p><br />
+        <p>Color led: {{data.output.led}}</p><br />
+        <p>Distance sensor: {{data.input.distance}} CM</p>
+    </section>
+</section>
