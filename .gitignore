@@ -1,6 +1,3 @@
-
-server/resources/data.json
-
-resources/data.json
-
-resources/data.json
+node_modules/
+package.json
+resources/
