@@ -16,7 +16,6 @@ router.post('/', function(req, res) {
         
         var distance = req.body.input || lastObject.input.distance;
 
-
         // Range distance from television in centimeters
         if (distance >= 100) {
             // Enough distance from television

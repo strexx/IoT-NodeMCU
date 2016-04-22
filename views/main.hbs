@@ -1,28 +1,41 @@
-<section class="chart">
-    <h2>Chart</h2>
-    <div id="chart"></div>
-</section>
+<section class="top">
 
-<section class="leds">
-    <h2>Status</h2>
-    <div class="{{data.output.led}} status"></div>
-    <form action="/api" method="post">
-        <select name="output">
-            <option value="red">Too close to the tele</option>
-            <option value="yellow">Almost too close to the tele</option>
-            <option value="green">Enough distance from the tele</option>
-        </select>
-        <button type="submit">
-            Update
-        </button>
-    </form>
-</section>
-
-<section class="sensors">
-    <section>
-        <h2>Status ESP</h2>
-        <p>Time updated: {{data.time}}</p>
-        <p>Color led: {{data.output.led}}</p>
-        <p>Distance sensor: {{data.input.distance}} CM</p>
+    <section class="chart">
+        <h2>Chart</h2>
+        <div id="chart"></div>
     </section>
+
+</section>
+
+<section class="bottom">
+
+    <section class="leds">
+        <h2>Status</h2>
+
+        <div class="led-box">
+            <div class="led-{{data.output.led}}"></div>
+        </div>
+
+        <form action="/api" method="post">
+            <select name="output">
+                <option value="red">Too close to the tele</option>
+                <option value="yellow">Almost too close to the tele</option>
+                <option value="green">Enough distance from the tele</option>
+            </select><br />
+            <button type="submit" class="button gray">
+                Update
+            </button>
+        </form>
+
+    </section>
+
+    <section class="sensors">
+        <section>
+            <h2>ESP Info</h2>
+            <p><b>Time updated:</b> {{data.time}}</p>
+            <p><b>Color led:</b> {{data.output.led}}</p>
+            <p><b>Distance sensor:</b> {{data.input.distance}} CM</p>
+        </section>
+    </section>
+
 </section>
