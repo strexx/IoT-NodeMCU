@@ -89,17 +89,19 @@ Returns JSON file with history of all measured distances from television.
 
 ##### Led
 
-Returns JSON file with history of all measured distances from television.
-```
-[
-  { 
-    "time": "2016-04-21 00:21:29", 
-    "input": { "distance": 50 }, 
-    "output": { "led": "red" } 
-  },
-  ...
-]
+Returns current LED status
 
 ```
+{ 
+  "led": "red"
+}
+```
 
+Returns current LED status
 ##### Distance
+
+```
+{ 
+  "distance": 50
+}
+```
