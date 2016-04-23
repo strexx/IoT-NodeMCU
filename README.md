@@ -146,7 +146,7 @@ All data send to the server is stored in JSON files. The API delivers 3 kinds of
 
 #### Led
 
-**/api/status/output** Returns JSON with current LED status
+**/api/status/output** Returns JSON with current LED status.
 
 ```
 { 
@@ -154,7 +154,7 @@ All data send to the server is stored in JSON files. The API delivers 3 kinds of
 }
 ```
 
-**/api/status/input** Returns JSON with latest distance measured
+**/api/status/input** Returns JSON with latest distance measured.
 
 #### Distance
 
