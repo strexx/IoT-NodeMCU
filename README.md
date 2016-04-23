@@ -120,7 +120,7 @@ If you open your browser and go to **http://localhost:3010/** you should see the
 
 Now we got everything we need except for a webserver. You need to install this on a server if you want access from outside.
 
-#### API
+### API
 
 All data send to the server is stored in JSON files. The API delivers 3 kinds of data:
 
@@ -128,7 +128,7 @@ All data send to the server is stored in JSON files. The API delivers 3 kinds of
 - Led status
 - Last measured distance
 
-##### History
+#### History
 
 **/api/data** Returns JSON with information of all measured distances from television.
 
@@ -144,7 +144,7 @@ All data send to the server is stored in JSON files. The API delivers 3 kinds of
 
 ```
 
-##### Led
+#### Led
 
 **/api/status/output** Returns JSON with current LED status
 
@@ -156,7 +156,7 @@ All data send to the server is stored in JSON files. The API delivers 3 kinds of
 
 **/api/status/input** Returns JSON with latest distance measured
 
-##### Distance
+#### Distance
 
 ```
 { 
