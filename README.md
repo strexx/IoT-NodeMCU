@@ -70,6 +70,7 @@ const int httpPort   = 80; // HTTP Port
 
 - Upload the arduino code to your NodeMCU
 
+You should be seeing this at the bottom of your Arduino app:
 
 ![Uploading Arduino code](readme/uploading-arduino.png)
 
@@ -112,6 +113,12 @@ gulp watch
 ```
 npm start
 ```
+
+If you open your browser and go to **http://localhost:3010/** you should see the interface:
+
+![Interface](readme/interface.png)
+
+http://localhost:3010/
 
 Now we got everything we need except for a webserver. You need to install this on a server if you want access from outside.
 
