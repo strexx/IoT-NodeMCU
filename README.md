@@ -97,7 +97,8 @@ Returns current LED status
 }
 ```
 
-Returns current LED status
+Returns latest distance measured
+
 ##### Distance
 
 ```
