@@ -28,8 +28,8 @@ the dashboard. This is a guide showing you how to use this and what tools you ne
 | Echo pin      | D0            | 
 | Trigger pin   | D1            | 
 | Green led     | D2            | 
-| BUILTIN_LED   | BUILTIN_LED   | 
 | Red led       | D3            |
+| BUILTIN_LED   | BUILTIN_LED   |
 
 #### Software for Arduino
 -----------------
