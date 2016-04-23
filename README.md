@@ -31,7 +31,7 @@ the dashboard. This is a guide showing you how to use this and what tools you ne
 | BUILTIN_LED   | BUILTIN_LED   | 
 | Red led       | D3            |
 
-#### Software
+#### Software for Arduino
 -----------------
 
 **Programs**
@@ -41,7 +41,14 @@ the dashboard. This is a guide showing you how to use this and what tools you ne
 - [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 - [ESP8266WiFi](https://github.com/ekstrand/ESP8266wifi)
 
-### Step 1: Installing
+
+#### Software for webserver
+
+- Nodejs
+- Gulp
+- NPM
+
+### Step 1: Installing Arduino
 
 - Open up **arduino.ino** with your Arduino app
 - Add WiFi SSID and password information
@@ -57,13 +64,59 @@ const char* password = "";  // WiFi Password
 ```
 // Hosts
 const char* host     = ""; // Your domain EG: iot.nodemcu.com
-String path          = "/api/status/output";
-const int httpPort   = 80;
+String path          = "/api/status/output"; // This is the path where the Arduino will GET data
+const int httpPort   = 80; // HTTP Port
 ```
 
-### Server 
+- Upload the arduino code to your NodeMCU
 
-### API
+
+![Uploading Arduino code](readme/uploading-arduino.png)
+
+Now your NodeMCU will connect to your WiFi and will **GET** and **POST** data to your server every 30 seconds.
+
+### Step 2: Installing server
+
+#### Setup
+
+- Clone this GIT repo
+
+- Open up terminal and open this project
+
+```
+cd /path-to-file
+```
+
+- In this folder install node modules
+
+```
+npm install
+```
+
+- Install Gulp
+
+```
+npm install --global gulp-cli
+```
+
+- Open new tab **MAC:** (CMD + T) **Windows:** (CTRL + T)
+- Start Gulp
+
+```
+gulp watch
+```
+
+- Switch back to other tab
+- Start the application
+
+```
+npm start
+```
+
+Now we got everything we need except for a webserver. You need to install this on a server if you want access from outside.
+
+
+#### API
 
 All data send to the server is stored in JSON files. The API delivers 3 kinds of data:
 
@@ -73,7 +126,7 @@ All data send to the server is stored in JSON files. The API delivers 3 kinds of
 
 ##### History
 
-Returns JSON file with history of all measured distances from television.
+Returns JSON with information of all measured distances from television.
 
 ```
 [
