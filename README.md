@@ -130,7 +130,7 @@ All data send to the server is stored in JSON files. The API delivers 3 kinds of
 
 ##### History
 
-Returns JSON with information of all measured distances from television.
+**/api/data** Returns JSON with information of all measured distances from television.
 
 ```
 [
@@ -146,7 +146,7 @@ Returns JSON with information of all measured distances from television.
 
 ##### Led
 
-Returns current LED status
+**/api/status/output** Returns JSON with current LED status
 
 ```
 { 
@@ -154,7 +154,7 @@ Returns current LED status
 }
 ```
 
-Returns latest distance measured
+**/api/status/input** Returns JSON with latest distance measured
 
 ##### Distance
 
