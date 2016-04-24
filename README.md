@@ -130,6 +130,26 @@ If you open your browser and go to **http://localhost:3010/** you should see the
 
 Now we got everything we need except for a webserver. You need to install this on a server if you want access from outside.
 
+### Server code architecture
+
+```
+/IoT-NodeMCU
+  /methods
+    /methods.js       -> Returns last object of an array
+  /public             
+    /src              -> CSS/JS files
+  /resources          
+    /data.json        -> File where all data will be stored
+  /routes
+    /api.js           -> Server logic for the API
+    /index.js         -> Router logic for the main page
+  /views
+    /error.hbs        -> Error page for pages that don't exist
+    /layout.hbs       -> Base layout where content will be rendered in <main>
+    /main.hbs         -> Dashboard page
+  /app.js             -> Main app configuration and initialize app
+```
+
 ### API
 
 All data send to the server is stored in JSON files. The API delivers 3 kinds of data:
