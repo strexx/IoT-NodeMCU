@@ -5,6 +5,14 @@ Kids don't realize sitting close to the television is bad for your eyes. Therefo
 kid is to the television between a period of time. Everytime your kid comes too close to the televison it will be monitored and send to
 the dashboard. This is a guide showing you how to use this and what tools you need to start parenting and caring over your child even better.
 
+### Table of contents
+
+1. Requirements
+2. Step 1: Installing Arduino
+3. Step 2: Installing server
+4. Server code architecture
+5. API
+
 ### Requirements
 
 #### Hardware
@@ -54,7 +62,7 @@ the dashboard. This is a guide showing you how to use this and what tools you ne
 - [ESP8266WiFi](https://github.com/ekstrand/ESP8266wifi)
 
 
-#### Software for webserver
+#### Software requirements for server
 
 - Nodejs
 - Gulp
@@ -195,3 +203,4 @@ All data send to the server is stored in JSON files. The API delivers 3 kinds of
   "distance": 50
 }
 ```
+##### Edited by: Fons Hettema
