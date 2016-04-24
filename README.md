@@ -1,4 +1,4 @@
-# Tutorial: How to create a televsion distance parental control interface with NodeMCU
+# Tutorial: How to create a televsion distance monitor with NodeMCU
 
 If you want to check up on your kiddos watching television while you're not at home, this is a solution that might come in handy.
 Kids don't realize sitting close to the television is bad for your eyes. Therefore I've created an interface to show you how close your
