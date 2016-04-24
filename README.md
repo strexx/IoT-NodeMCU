@@ -17,11 +17,19 @@ the dashboard. This is a guide showing you how to use this and what tools you ne
 - 1 breadboard (big or small)
 - 8 circuit wires
 - [HC-SR04 ultra distance sensor](http://www.hackerstore.nl/Afbeeldingen/95klein.jpg)
-- USB to Micro-USB B cable (to connect NodeMCU to computer)
+- USB to Micro-USB B cable (to connect NodeMCU to computer) 
+
+##### HC-SR04 sensor
+![HC-SR04](http://www.hackerstore.nl/Afbeeldingen/95klein.jpg)
+
 
 ##### Arduino setup
 
 ![Arduino setup](readme/Arduino-setup.png)
+
+
+##### Arduino setup
+![Arduino setup](readme/Arduino-structure.png)
 
 | Sensor/Output  | Port         | 
 | ------------- |:-------------:| 
