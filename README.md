@@ -62,7 +62,7 @@ the dashboard. This is a guide showing you how to use this and what tools you ne
 
 ### Step 1: Installing Arduino
 
-- Open up **arduino.ino** with your Arduino app
+- Open up **arduino.ino** in ```arduino/arduino.ino```
 - Add WiFi SSID and password information
 
 ```
@@ -91,8 +91,6 @@ Now your NodeMCU will connect to your WiFi and will **GET** and **POST** data to
 ### Step 2: Installing server
 
 #### Setup
-
-- Clone this GIT repo
 
 - Open up terminal and open this project
 
