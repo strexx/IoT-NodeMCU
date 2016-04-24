@@ -46,6 +46,9 @@ the dashboard. This is a guide showing you how to use this and what tools you ne
 **Programs**
 - Arduino (downloaded from: https://www.arduino.cc/en/Main/Software)
 
+**Arduino code**
+- [Arduino code](https://github.com/strexx/IoT-NodeMCU/blob/iot-feature-fons/arduino/arduino.ino) (from arduino folder)
+
 **Libraries**
 - [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 - [ESP8266WiFi](https://github.com/ekstrand/ESP8266wifi)
