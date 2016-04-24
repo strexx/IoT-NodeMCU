@@ -30,7 +30,7 @@ the dashboard. This is a guide showing you how to use this and what tools you ne
 
 ##### Arduino sketch
 
-![Arduino setup](readme/Arduino-structure.png)
+![Arduino setup](readme/Arduino-structure.jpg)
 
 | Sensor/Output  | Port         | 
 | ------------- |:-------------:| 
