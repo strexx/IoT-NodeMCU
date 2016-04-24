@@ -1,9 +1,9 @@
-# Tutorial: How to create a televsion distance monitor with NodeMCU
+# Tutorial: Showing how to setup a television distance meter interface with a NodeMCU
 
-If you want to check up on your kiddos watching television while you're not at home, this is a solution that might come in handy.
-Kids don't realize sitting close to the television is bad for your eyes. Therefore I've created an interface to show you how close your
-kid is to the television between a period of time. Everytime your kid comes too close to the televison it will be monitored and send to
-the dashboard. This is a guide showing you how to use this and what tools you need to start parenting and caring over your child even better.
+If you want to check up on your kiddos watching television while you're not at home, this solution might come in handy.
+Kids don't realize sitting close to the television is bad for your eyes. Therefore I've created an interface for parents to check up on how close your kid is to the television between a period of time. Everytime your kid comes too close to the televison it will be monitored and send to the dashboard. This is a guide showing you a way how to do this and what tools you need to start parenting and caring over your child even better!
+
+After finishing this guide you will have a dashboard with a chart and a statusbar. This statusbar indicates if your child is too close to the television (**red**), if your child is almost too close to the televsion (**yellow**) or if your child keeps enough distance (**green**). The chart shows the last 5 distances measured.
 
 ### Table of contents
 
