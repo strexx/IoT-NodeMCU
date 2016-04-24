@@ -28,7 +28,8 @@ the dashboard. This is a guide showing you how to use this and what tools you ne
 ![Arduino setup](readme/Arduino-setup.png)
 
 
-##### Arduino setup
+##### Arduino sketch
+
 ![Arduino setup](readme/Arduino-structure.png)
 
 | Sensor/Output  | Port         | 
