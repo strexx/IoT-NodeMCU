@@ -1,5 +1,13 @@
+function outputUpdateChild(vol) {
+    document.querySelector('#child-out').value = vol;
+}
+
+function outputUpdateAdult(vol) {
+    document.querySelector('#adult-out').value = vol;
+}
+
 d3.json("/api/data", function(error, data) {
-    var time = [];
+    var time = ['times'];
     var sensor = ['Distance from television in centimeters'];
 
     data.forEach(function(element, index) {
@@ -7,9 +15,7 @@ d3.json("/api/data", function(error, data) {
         sensor.push(element.input.distance);
     });
 
-    //console.log(sensor);
-
-    var showResults = 5;
+    var showResults = 20;
     var newArr = sensor.slice(Math.max(sensor.length - showResults, 1));
     var text = 'Distance from television in centimeters';
 
@@ -19,16 +25,21 @@ d3.json("/api/data", function(error, data) {
 
     var chart = c3.generate({
         data: {
+            x: 'times',
+            xFormat: '%Y-%m-%d %H:%M:%S',
             columns: [
-                newArr
+                newArr,
+                time
             ]
         },
         axis: {
             x: {
-                type: 'category',
-                categories: time
+                type: 'timeseries',
+                categories: time,
+                tick: {
+                    format: '%H:%M:%S'
+                }
             }
-
         }
     });
 });

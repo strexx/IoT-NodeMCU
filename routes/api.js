@@ -12,19 +12,16 @@ router.post('/', function(req, res) {
     jsonfile.readFile(file, function(err, obj) {
         var lastObject = getLastObject(obj);
 
-        /* LA SERVER LOGIC */
-        
-        var distance = req.body.input || lastObject.input.distance;
+        /* THE LOGIC */
+        var distance = req.body.input || lastObject.input.distance,
+            settingsRed = req.body.red || lastObject.settings.red,
+            settingsGreen = req.body.green || lastObject.settings.green;
 
-        // Range distance from television in centimeters
-        if (distance >= 100) {
-            // Enough distance from television
+        if (distance >= settingsGreen) {
             var ledValue = "green";
-        } else if (distance > 49 && distance < 101) {
-            // Almost too close to television
+        } else if (distance > settingsRed && distance < settingsGreen) {
             var ledValue = "yellow";
-        } else {
-            // Too close to television 0 to 49 CM
+        } else if (distance <= settingsRed) {
             var ledValue = "red";
         }
 
@@ -35,6 +32,10 @@ router.post('/', function(req, res) {
             },
             output: {
                 led: req.body.output || ledValue
+            },
+            settings: {
+                red: req.body.red || lastObject.settings.red,
+                green: req.body.green || lastObject.settings.green
             }
         };
         console.log(req.body);
