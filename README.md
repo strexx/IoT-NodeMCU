@@ -105,6 +105,8 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ### Step 2: Running Arduino
 
+Now we have setup our Arduino and it's software it's time to run the code!
+
 - Open up **arduino.ino** in ```arduino/arduino.ino```
 - Add WiFi SSID and password information
 
