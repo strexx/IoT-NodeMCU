@@ -10,7 +10,9 @@ router.post('/', function(req, res) {
         now = moment().format('YYYY-MM-DD HH:mm:ss');
 
     jsonfile.readFile(file, function(err, obj) {
-        var lastObject = getLastObject(obj);
+        var lastObject = getLastObject(obj),
+            settingsRed,
+            settingsGreen;
 
         /* THE LOGIC */
         var distance = req.body.input || lastObject.input.distance,
@@ -36,12 +38,12 @@ router.post('/', function(req, res) {
             settings: {
                 red: req.body.red || lastObject.settings.red,
                 green: req.body.green || lastObject.settings.green
-            }
+            },
+            modus: req.body.modus || lastObject.modus
         };
-        console.log(req.body);
         obj.push(newdata);
         jsonfile.writeFileSync(file, obj);
-        res.redirect('/');
+        res.redirect(req.get('referer'));
     });
 });
 

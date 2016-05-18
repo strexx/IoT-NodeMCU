@@ -7,7 +7,7 @@ var express = require('express'),
     api = require('./routes/api');
     routes = require('./routes/index');
 
-//set vieuw enging
+//set view engine
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 

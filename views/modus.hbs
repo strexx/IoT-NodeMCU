@@ -1,0 +1,55 @@
+<div id="content">
+
+    <section class="leds edit edit-modus">
+
+        <div class="modus">
+
+                <h2><i class="fa fa-toggle-on fa-small" aria-hidden="true"></i>Edit modus</h2>
+
+                <p class="edit-msg">Here you can modify the status to custom, child, adult or grandpa. Each modus has it's own range standards that fits for the right age category.</p>
+
+                <p class="hidden cur-mod">{{ data.modus }}</p>
+
+                <div class="moda">
+
+                    <div class="modus-mod custom-modus">
+                        <h3>Custom modus</h3>                    
+                        <form action="/api" method="post">                           
+                            <button name="modus" value="custom"></button>
+                        </form>
+                    </div>
+
+                    <div class="modus-mod child-modus">
+                        <h3>Child modus</h3>
+                        <form action="/api" method="post">
+                            <input name="red" type="hidden" value="70">
+                            <input name="green" type="hidden" value="120">                         
+                            <button name="modus" value="child"></button>
+                        </form>
+                    </div>
+
+                    <div class="modus-mod adult-modus">
+                        <h3>Adult modus</h3>
+                        <form action="/api" method="post">
+                            <input name="red" type="hidden" value="50">
+                            <input name="green" type="hidden" value="90">                          
+                            <button name="modus" value="adult"></button>
+                        </form>
+                    </div>
+
+                    <div class="modus-mod grandpa-modus">
+                        <h3>Grandpa modus</h3>
+                        <form action="/api" method="post">
+                            <input name="red" type="hidden" value="30">
+                            <input name="green" type="hidden" value="70">
+                            <button name="modus" value="grandpa"></button>
+                        </form>
+                    </div>
+
+                </div>
+
+        </div>
+
+    </section>
+
+</div>

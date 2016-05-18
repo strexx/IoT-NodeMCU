@@ -1,7 +1,28 @@
+<div id="content">
+
+    <section class="sensors">
+        
+        <div class="info">
+
+            <h2><i class="fa fa-info-circle fa-small" aria-hidden="true"></i>Sensor Info</h2>
+            <p><b>Time updated:</b> {{data.time}}</p>
+            <p><b>Color led:</b> {{data.output.led}}</p>
+            <p><b>Distance sensor:</b> {{data.input.distance}} CM</p><br />
+
+            <h2>Current status <a href="status" class="status-link"><strong>[Change status]</strong></a></h2>
+
+            <div class="led-box">
+                <div class="led-{{data.output.led}}"></div>
+            </div>
+
+        </div>
+
+    </section>
+
 <section class="top">
 
     <section class="chart">
-        <h2>Chart</h2>
+        <h2>Distance from television today</h2>
         <div id="chart"></div>
     </section>
 
@@ -9,44 +30,14 @@
 
 <section class="bottom">
 
-    <section class="leds">
-        <h2>Current status</h2>
+    <section class="leds modus">
+        
+        <h2><i class="fa fa-toggle-on fa-small" aria-hidden="true"></i>Current modus: {{data.modus}} <a href="modus" class="status-link"><strong>[Switch modus]</strong></a></h2>        
 
-        <div class="led-box" style="display: block; width: 100%;">
-            <div class="led-{{data.output.led}}"></div>
-        </div><br /><br />
+        <div class="main-modus modus-{{data.modus}}"></div>
 
-        <form action="/api" method="post">
-
-            <h2>Update status</h2>
-            
-            <button name="output" value="red">Too close to the tele</button>
-            <button name="output" value="yellow">Almost to close to the tele</button>
-            <button name="output" value="green">Enough distance to the tele</button><br /><br />
-
-            <h2>Update modus</h2>
-
-            <label for="child">Maximale afstand dat het gevaarlijk wordt voor je ogen</label><br /> <!-- 50cm -->
-            <input name="red" type="range" min="0" max="60" value="{{data.settings.red}}" oninput="outputUpdateChild(value)" id="child">
-            <output for="child" id="child-out">{{data.settings.red}}</output><br />
-
-            <label for="adult">Minimale afstand dat het prima is voor je ogen</label><br /> <!-- 1m -->
-            <input name="green" type="range" min="90" max="200" value="{{data.settings.green}}" oninput="outputUpdateAdult(value)" id="adult">
-            <output for="adult" id="adult-out">{{data.settings.green}}</output><br />
-
-            <button type="submit" class="button gray">Update</button>
-
-        </form>
-
-    </section>
-
-    <section class="sensors">
-        <section>
-            <h2>ESP Info</h2>
-            <p><b>Time updated:</b> {{data.time}}</p>
-            <p><b>Color led:</b> {{data.output.led}}</p>
-            <p><b>Distance sensor:</b> {{data.input.distance}} CM</p>
-        </section>
     </section>
 
 </section>
+
+</div>

@@ -9,16 +9,36 @@
     <meta name="description" content="data">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/c3.min.css">
-    <title>Don't come to close to the tele</title>
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <title>TV Monitor</title>
 </head>
 
 <body>
     <header id="header">
-        <h1>Television Monitor</h1>
-    </header>    
-    <main id="main">
-        {{{body}}}
-    </main>
+        <div id="logo">
+            <i class="fa fa-television" aria-hidden="true"><a href="overview">TV Monitor</a></i>
+            <h2>Don't come to close to the tele!</h2>          
+        </div>
+        <div class="page-title">
+            <h2></h2>
+        </div>
+    </header>
+    <div id="wrapper">
+        <nav id="nav">
+            <ul> 
+                <li id="overview"><a href="overview"><i class="fa fa-area-chart" aria-hidden="true"></i>Overview</a></li>
+                <li id="status"><a href="status"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>Status</a></li>
+                <li id="modus"><a href="modus"><i class="fa fa-toggle-on" aria-hidden="true"></i>Modus</a></li>
+                <li id="settings"><a href="settings"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a></li>
+            </ul>
+        </nav>
+        <main id="main">
+            {{{body}}}
+        </main>
+    </div>
 </body>
 <script type="text/javascript" src="/js/d3.v3.min.js"></script>
 <script type="text/javascript" src="/js/c3.min.js"></script>

@@ -1,0 +1,32 @@
+<div id="content">
+
+    <section class="leds edit">
+
+        <form action="/api" method="post">
+
+            <h2><i class="fa fa-dot-circle-o fa-small" aria-hidden="true"></i>Edit status</h2>
+
+            <p class="edit-msg">Here you can send a status message to the Arduino. Each color represents a status.</p>
+
+            <div class="status">
+                
+                <button name="output" class="btn stop" value="red"></button>
+                <label for="stop">Too close to the tele</label><br/>
+                <button name="output" class="btn warning" value="yellow"></button>
+                <label for="warning">Get more distance</label><br />
+                <button name="output" class="btn proceed" value="green"></button>
+                <label for="proceed">Enough distance to the tele</label>
+
+            </div>
+
+            <h2>Current status</h2>
+
+             <div class="led-box cur-status">
+                <div class="led-{{data.output.led}}"></div>
+            </div>
+
+        </form>
+
+    </section>
+
+</div>
