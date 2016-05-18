@@ -1,7 +1,51 @@
 # Tutorial: Showing how to setup a television distance meter interface with a NodeMCU
 
-If you want to check up on your kiddos watching television while you're not at home, this solution might come in handy.
-Kids don't realize sitting close to the television is bad for your eyes. Therefore I've created an interface for parents to check up on how close your kid is to the television between a period of time. Everytime your kid comes too close to the televison it will be monitored and send to the dashboard. This is a guide showing you a way how to do this and what tools you need to start parenting and caring over your child even better!
+If you want to check up on your family watching television while you're not at home, this solution might come in handy.
+People don't realize sitting close to the television is bad for your eyes. Therefore I've created an interface to check up on how far away someone is to the television between a period of time. Everytime someone is to close to the televison it will be monitored and sent to the dashboard. This manual shows you how to monitor the distance using a sensor with Arduino soft- and hardware and display this data in an interface. This interface contains a realtime chart where you can see all distances measured from today.
+
+## Overview
+Op de overview pagina zie je een dashboard waarin je de status, de modus en informatie over de sensor kunt bekijken in een overzicht.
+This page also contains a realtime chart where you can see all distances measured from the television today.
+
+## Status
+Op de status pagina kun je zien of de persoon die televisie aan het kijken is genoeg afstand neemt en kun je ingrijpen door status bericht te sturen door op een van de knoppen te klikken.
+
+**Green**
+
+Als het lampje groen brand dan houdt de persoon genoeg afstand van de televisie.
+
+**Yellow**
+
+Als het lampje geel brand dan houdt de persoon net genoeg afstand van de televisie.
+
+**Red**
+
+Als het lampje rood brand dan houdt de persoon te weinig afstand van de televisie.
+
+## Modus
+The interface heeft 4 modussen gebaseerd op leeftijdscategorie. Elke modus heeft zijn eigen minimale en maximale afstand die voor de betreffende leeftijdscategorie gewenst zijn.
+
+**Custom mode**
+
+This will adapt the custom settings which can be managed at the settings page.
+
+**Child mode**
+
+This is a pre defined mode that has it's own range standards that is best for children.
+The grandpa mode now uses a 70 cm minimal range and a 120 cm maximum range.
+
+**Adult mode**
+
+This is a pre defined mode that has it's own range standards that is best for adults.
+The grandpa mode now uses a 50 cm minimal range and a 90 cm maximum range.
+
+**Grandpa mode**
+
+This is a pre defined mode that has it's own range standards that is best for grandparents.
+The grandpa mode now uses a 30 cm minimal range and a 70 cm maximum range.
+
+## Settings
+Op de settings pagina kun je je eigen minimale en maximale afstand instellen die je wilt hanteren voor jouw sensor. Je kunt deze settings activeren door op de modus pagina "custom mode" aan te zetten.
 
 After finishing this guide you will have a dashboard with a chart and a statusbar. This statusbar indicates if your child is too close to the television (**red**), if your child is almost too close to the televsion (**yellow**) or if your child keeps enough distance (**green**). The chart shows the last 5 distances measured.
 
@@ -10,8 +54,9 @@ After finishing this guide you will have a dashboard with a chart and a statusba
 1. Requirements
 2. Step 1: Installing Arduino
 3. Step 2: Installing server
-4. Server code architecture
-5. API
+4. Interface 
+5. Server code architecture
+6. API
 
 ### Requirements
 
@@ -64,9 +109,9 @@ After finishing this guide you will have a dashboard with a chart and a statusba
 
 #### Software requirements for server
 
-- Nodejs
+- [Nodejs](https://nodejs.org/en/)
 - [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
-- NPM
+- [NPM](https://www.npmjs.com/)
 
 ### Step 1: Installing Arduino
 
