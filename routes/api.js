@@ -19,11 +19,11 @@ router.post('/', function(req, res) {
             settingsRed = req.body.red || lastObject.settings.red,
             settingsGreen = req.body.green || lastObject.settings.green;
 
-        if (distance >= settingsGreen) {
+        if (distance > settingsGreen) {
             var ledValue = "green";
         } else if (distance > settingsRed && distance < settingsGreen) {
             var ledValue = "yellow";
-        } else if (distance <= settingsRed) {
+        } else if (distance < settingsRed) {
             var ledValue = "red";
         }
 
