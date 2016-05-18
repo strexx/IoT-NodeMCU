@@ -79,6 +79,8 @@ The Arduino code you need for this project is located in the [Arduinofolder](htt
 - Next we need to install the necessary driver so the Arduino software can work with the NodeMCU board.
 1. Go to Arduino > Preferences (in the menubar) and add the following link at the "Additional Boards Manager URLs".
 
+![Arduino-preferences](https://raw.githubusercontent.com/sennykalidien/EW/master/iot/week-3/readme/arduino-navigate-settings.png)
+
 ```
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 ```
