@@ -19,6 +19,7 @@ After finishing this guide you will have a dashboard with a chart and a statusba
 4. Interface 
 5. Server code architecture
 6. API
+7. Demo
 
 ### Requirements
 
@@ -67,42 +68,37 @@ Install the software by following the standard installation procedure and launch
 The Arduino code you need for this project is located in the [Arduino folder]((https://github.com/strexx/IoT-NodeMCU/blob/iot-feature-fons/arduino/arduino.ino) of this repository.
 
 **Libraries**
-Libraries you need to setup this project:
 - [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 - [ESP8266WiFi](https://github.com/ekstrand/ESP8266wifi)
 
-
-#### Software requirements for server
-
-- [Nodejs](https://nodejs.org/en/)
-- [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
-- [NPM](https://www.npmjs.com/)
-
-### Step 1: Installing Arduino
+### Step 1: Installing Arduino software
 
 - Open up your Arduino editor which you have downloaded earlier if you haven't already done that.
 
 - Next we need to install the necessary driver so the Arduino software can work with the NodeMCU board.
-- 1. Go to Arduino > Preferences (in the menubar) and add the following link at the "Additional Boards Manager URLs".
+1. Go to Arduino > Preferences (in the menubar) and add the following link at the "Additional Boards Manager URLs".
 
 ```
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 ```
 ![Arduino-settings](https://raw.githubusercontent.com/sennykalidien/EW/master/iot/week-3/readme/arduino-settings.png)
 
-- 2. Go to Tools > Board > Boardmanager (in the menubar).
+2. Go to Tools > Board > Boardmanager (in the menubar).
 
-- 3. Search for 'esp'.
+3. Search for 'esp'.
 
-- 4. Select the block and click 'install'.
+4. Select the block and click 'install'.
 
 ![Arduino-tools-search](https://raw.githubusercontent.com/sennykalidien/EW/master/iot/week-3/readme/arduino-tools-search.png)
 
-- 5. The drivers should be installed now.
+5. The drivers should be installed now.
 
-- 6. Go to tools and make sure your settings look like this:
+6. Go to tools and make sure your settings look like this:
 
 ![Arduino-tools-settings](https://raw.githubusercontent.com/sennykalidien/EW/master/iot/week-3/readme/arduino-tools-settings.png)
+
+
+### Step 2: Running Arduino
 
 - Open up **arduino.ino** in ```arduino/arduino.ino```
 - Add WiFi SSID and password information
@@ -133,6 +129,13 @@ Now your NodeMCU will connect to your WiFi and will **GET** and **POST** data to
 ### Step 2: Installing server
 
 Now lets setup our server. This tutorial will show you how to set it up locally. This tutorial won't explain how to set up this server on a live environment with an own domain. Take a look at [Digital Ocean](https://www.digitalocean.com/) on how to set up a live environment.
+You also need to install some Javascript tools in order to run this project:
+
+#### Software requirements for server
+
+- [Nodejs](https://nodejs.org/en/) which is needed to setup our local server.
+- [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) which is needed to run some automatic tasks.
+- [NPM](https://www.npmjs.com/) which is needed to and install dependencies.
 
 #### Setup
 
