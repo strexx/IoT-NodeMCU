@@ -139,10 +139,17 @@ You also need to install some Javascript tools in order to run this project:
 #### Software requirements for server
 
 - [Nodejs](https://nodejs.org/en/) which is needed to setup our local server.
-- [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) which is needed to run some automatic tasks.
 - [NPM](https://www.npmjs.com/) which is needed to and install dependencies.
 
 #### Setup
+
+Clone this git repository to the folder where you want the store this project local on your computer. You need to open your Command Prompt (Windows) or Terminal (Mac) to execute this.
+
+```
+git clone https://github.com/strexx/IoT-NodeMCU.git
+cd IoT-NodeMCU
+git checkout iot-feature-fons
+```
 
 - Open up terminal and open this project
 
@@ -150,28 +157,13 @@ You also need to install some Javascript tools in order to run this project:
 cd /path-to-file
 ```
 
-- In this folder install node modules
+- In this folder install all node modules
 
 ```
 npm install
 ```
 
-You can find more information at the [official website](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) of Gulp.
-
-- Install Gulp
-
-```
-npm install --global gulp-cli
-```
-
-- Open new tab
-- Start Gulp
-
-```
-gulp watch
-```
-
-- Start the application from the root folder
+- After the installation start your server locally with the following command from the root directory:
 
 ```
 npm start
