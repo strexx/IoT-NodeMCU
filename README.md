@@ -209,8 +209,6 @@ On a yellow light the person is too close to the televsion and should keep more 
 
 ![Modus](readme/interface-modus.png)
 
-The interface heeft 4 modussen gebaseerd op leeftijdscategorie. Elke modus heeft zijn eigen minimale en maximale afstand die voor de betreffende leeftijdscategorie gewenst zijn.
-
 The interface has four types of modes based on age category. Each modus has it's own minimum and maximum range that fits in for the right age category.
 
 **Custom mode**
