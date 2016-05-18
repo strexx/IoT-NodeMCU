@@ -60,12 +60,13 @@ After finishing this guide you will have a dashboard with a chart and a statusba
 -----------------
 
 **Programs**
-You can download the Arduino software at the [official site](https://www.arduino.cc/en/Main/Software) of Arduino.
 
+You can download the Arduino software at the [official site](https://www.arduino.cc/en/Main/Software) of Arduino.
 Install the software by following the standard installation procedure and launch the program after it's finished.
 
 **Arduino code**
-The Arduino code you need for this project is located in the [Arduino folder]((https://github.com/strexx/IoT-NodeMCU/blob/iot-feature-fons/arduino/arduino.ino) of this repository.
+
+The Arduino code you need for this project is located in the [Arduinofolder](https://github.com/strexx/IoT-NodeMCU/blob/iot-feature-fons/arduino/arduino.ino) of this repository.
 
 **Libraries**
 - [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
