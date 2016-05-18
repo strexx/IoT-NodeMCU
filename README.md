@@ -136,9 +136,7 @@ gulp watch
 npm start
 ```
 
-If you open your browser and go to **http://localhost:3010/** you should see the interface:
-
-![Interface](readme/interface.png)
+If you open your browser and go to **http://localhost:3010/** you should see the app running.
 
 **Important:** Again, this is on a **local** server, not on a live environment.
 
