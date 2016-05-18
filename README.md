@@ -191,32 +191,33 @@ If you open your browser and go to **http://localhost:3010/** you should see the
 
 ![Overview](readme/interface-overview.png)
 
-Op de overview pagina zie je een dashboard waarin je de status, de modus en informatie over de sensor kunt bekijken in een overzicht.
-This page also contains a realtime chart where you can see all distances measured from the television today.
+On the overview page you'll see a dashboard where you can see the status, modus and latest information about the sensor wrapped in one single page. This page also contains a realtime chart where you can see distances measured from the television today.
 
 ##### Status
 
 ![Status](readme/interface-status.png)
 
-Op de status pagina kun je zien of de persoon die televisie aan het kijken is genoeg afstand neemt en kun je ingrijpen door status bericht te sturen door op een van de knoppen te klikken.
+On the status page it's possible to see whether the person that is watching television is keeping enough distance. If this is not the case you can send them a status message by clicking on one of the status buttons:
 
 **Green**
 
-Als het lampje groen brand dan houdt de persoon genoeg afstand van de televisie.
+On a green light the person keeps enough distance from the television.
 
 **Yellow**
 
-Als het lampje geel brand dan houdt de persoon net genoeg afstand van de televisie.
+On a yellow light the person keeps just enough distance from the television.
 
 **Red**
 
-Als het lampje rood brand dan houdt de persoon te weinig afstand van de televisie.
+On a yellow light the person is too close to the televsion and should keep more distance.
 
 ##### Modus
 
 ![Modus](readme/interface-modus.png)
 
 The interface heeft 4 modussen gebaseerd op leeftijdscategorie. Elke modus heeft zijn eigen minimale en maximale afstand die voor de betreffende leeftijdscategorie gewenst zijn.
+
+The interface has four types of modes based on age category. Each modus has it's own minimum and maximum range that fits in for the right age category.
 
 **Custom mode**
 
@@ -241,7 +242,7 @@ The grandpa mode now uses a 30 cm minimal range and a 70 cm maximum range.
 
 ![Status](readme/interface-settings.png)
 
-Op de settings pagina kun je je eigen minimale en maximale afstand instellen die je wilt hanteren voor jouw sensor. Je kunt deze settings activeren door op de modus pagina "custom mode" aan te zetten.
+On the settings page you can configure your own desired minimum and maximum range for your sensor. You can activate these settings by changing the mode to "custom mode" on the modus page.
 
 ### Server code architecture
 
