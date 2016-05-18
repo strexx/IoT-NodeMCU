@@ -65,7 +65,7 @@ After finishing this guide you will have a dashboard with a chart and a statusba
 #### Software requirements for server
 
 - Nodejs
-- Gulp
+- [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
 - NPM
 
 ### Step 1: Installing Arduino
@@ -98,6 +98,8 @@ Now your NodeMCU will connect to your WiFi and will **GET** and **POST** data to
 
 ### Step 2: Installing server
 
+Now lets setup our server. This tutorial will show you how to set it up locally. This tutorial won't explain how to set up this server on a live environment with an own domain. Take a look at [Digital Ocean](https://www.digitalocean.com/) on how to set up a live environment.
+
 #### Setup
 
 - Open up terminal and open this project
@@ -112,21 +114,22 @@ cd /path-to-file
 npm install
 ```
 
+You can find more information at the [official website](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) of Gulp.
+
 - Install Gulp
 
 ```
 npm install --global gulp-cli
 ```
 
-- Open new tab **MAC:** (CMD + T) **Windows:** (CTRL + T)
+- Open new tab
 - Start Gulp
 
 ```
 gulp watch
 ```
 
-- Switch back to other tab
-- Start the application
+- Start the application from the root folder
 
 ```
 npm start
@@ -136,7 +139,7 @@ If you open your browser and go to **http://localhost:3010/** you should see the
 
 ![Interface](readme/interface.png)
 
-Now we got everything we need except for a webserver. You need to install this on a server if you want access from outside.
+**Important:** Again, this is on a **local** server, not on a live environment.
 
 ------
 
