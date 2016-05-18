@@ -66,7 +66,7 @@ Install the software by following the standard installation procedure and launch
 
 **Arduino code**
 
-The Arduino code you need for this project is located in the [Arduinofolder](https://github.com/strexx/IoT-NodeMCU/blob/iot-feature-fons/arduino/arduino.ino) of this repository.
+The Arduino code you need for this project is located in the [Arduino folder](https://github.com/strexx/IoT-NodeMCU/blob/iot-feature-fons/arduino/arduino.ino) of this repository.
 
 **Libraries**
 - [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
@@ -77,9 +77,11 @@ The Arduino code you need for this project is located in the [Arduinofolder](htt
 - Open up your Arduino editor which you have downloaded earlier if you haven't already done that.
 
 - Next we need to install the necessary driver so the Arduino software can work with the NodeMCU board.
-1. Go to Arduino > Preferences (in the menubar) and add the following link at the "Additional Boards Manager URLs".
+1. Go to Arduino > Preferences (in the menubar)
 
 ![Arduino-preferences](https://raw.githubusercontent.com/sennykalidien/EW/master/iot/week-3/readme/arduino-navigate-settings.png)
+
+Add the following link at the "Additional Boards Manager URLs".
 
 ```
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
