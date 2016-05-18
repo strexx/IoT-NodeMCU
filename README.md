@@ -1,15 +1,13 @@
 # Tutorial: Showing how to setup a television distance meter interface with a NodeMCU
 
 If you want to check up on your family watching television while you're not at home, this solution might come in handy.
-People don't realize sitting close to the television is bad for your eyes. Therefore I've created an interface to check up on how far away someone is to the television between a period of time. Everytime someone is to close to the televison it will be monitored and sent to the dashboard. This manual shows you how to monitor the distance using a sensor with Arduino soft- and hardware and display this data in an interface. This interface contains a realtime chart where you can see all distances measured from today.
+People don't realize sitting close to the television is bad for your eyes. Therefore I've created an interface to check up on how far away someone is to the television between a period of time. Everytime someone is too close to the televison it will be monitored and send to the dashboard. This manual shows you how to monitor the distance using a sensor with Arduino soft- and hardware and display this data in a web-interface. This interface contains a realtime chart where you can see all distances measured today.
 
 For this tutorial you require a basic understanding of:
 
 - The programming language C++ (or JavaScript)
 - How to work with your terminal in Window or Mac
-- How to set up a own live node server (if you want to communicate with a live environment server)
-
-After finishing this guide you will have a dashboard with a chart and a statusbar. This statusbar indicates if your child is too close to the television (**red**), if your child is almost too close to the televsion (**yellow**) or if your child keeps enough distance (**green**). The chart shows the distances measured of today.
+- How to set up a own live Node server (if you want to communicate with a live environment server)
 
 ### Table of contents
 
