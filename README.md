@@ -304,4 +304,9 @@ All data send to the server is stored in JSON files. The API delivers 3 kinds of
   "distance": 50
 }
 ```
+
+### Demo
+
+A demo of this project is available at: [iot.fons.alleenmedia.nl](http://www.iot.fons.alleenmedia.nl)
+
 ##### Edited by: Fons Hettema
