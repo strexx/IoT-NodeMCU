@@ -13,11 +13,12 @@ For this tutorial you require a basic understanding of:
 
 1. Requirements
 2. Step 1: Installing Arduino
-3. Step 2: Installing server
-4. Interface 
-5. Server code architecture
-6. API
-7. Demo
+3. Step 2: Running Arduino
+4. Step 3: Installing server
+5. Interface 
+6. Server code architecture
+7. API
+8. Demo
 
 ### Requirements
 
@@ -132,7 +133,7 @@ You should be seeing this at the bottom of your Arduino app:
 
 Now your NodeMCU will connect to your WiFi and will **GET** and **POST** data to your server every 30 seconds.
 
-### Step 2: Installing server
+### Step 3: Installing server
 
 Now lets setup our server. This tutorial will show you how to set it up locally. This tutorial won't explain how to set up this server on a live environment with an own domain. Take a look at [Digital Ocean](https://www.digitalocean.com/) on how to set up a live environment.
 You also need to install some Javascript tools in order to run this project:
