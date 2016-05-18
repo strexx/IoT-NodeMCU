@@ -75,6 +75,7 @@ The Arduino code you need for this project is located in the [Arduino folder](ht
 - Open up your Arduino editor which you have downloaded earlier if you haven't already done that.
 
 - Next we need to install the necessary driver so the Arduino software can work with the NodeMCU board.
+
 1. Go to Arduino > Preferences (in the menubar)
 
 ![Arduino-preferences](https://raw.githubusercontent.com/sennykalidien/EW/master/iot/week-3/readme/arduino-navigate-settings.png)
