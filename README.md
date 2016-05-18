@@ -187,6 +187,8 @@ On the overview page you'll see a dashboard where you can see the status, modus 
 
 ![Status](readme/interface-status.png)
 
+The Arduino is constantly sending the distances to the server. According to the standards of the activated modus the LEDs on the Arduino will change color. If the distance is under the minimum range the LED will turn red, if the distance is between the minimum and the maximum range the LED will turn yellow and if the distance is greater than or equal to the maximum range it will turn green.
+
 On the status page it's possible to see whether the person that is watching television is keeping enough distance. If this is not the case you can send them a status message by clicking on one of the status buttons:
 
 **Green**
