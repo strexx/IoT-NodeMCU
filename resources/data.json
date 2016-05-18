@@ -1,1 +1,282 @@
-[{"time":"2016-05-16 16:49:36","input":{"distance":40},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 17:06:26","input":{"distance":60},"output":{"led":"red"},"settings":{"red":"50","green":"90"},"modus":"adult"},{"time":"2016-05-16 17:10:37","input":{"distance":20},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 17:30:48","input":{"distance":80},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 17:45:10","input":{"distance":70},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"custom"},{"time":"2016-05-16 18:00:21","input":{"distance":50},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 18:30:36","input":{"distance":120},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 19:00:01","input":{"distance":150},"output":{"led":"red"},"settings":{"red":"50","green":"90"},"modus":"adult"},{"time":"2016-05-16 19:30:06","input":{"distance":70},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 19:45:17","input":{"distance":40},"output":{"led":"red"},"settings":{"red":"50","green":"90"},"modus":"adult"},{"time":"2016-05-16 20:01:51","input":{"distance":100},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 20:15:51","input":{"distance":70},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 20:30:51","input":{"distance":75},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 20:45:51","input":{"distance":90},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 20:55:51","input":{"distance":40},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 21:02:01","input":{"distance":90},"output":{"led":"red"},"settings":{"red":"50","green":"90"},"modus":"adult"},{"time":"2016-05-16 21:05:09","input":{"distance":100},"output":{"led":"yellow"},"settings":{"red":"30","green":"70"},"modus":"grandpa"},{"time":"2016-05-16 21:15:17","input":{"distance":30},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 21:30:02","input":{"distance":80},"output":{"led":"yellow"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 22:00:48","input":{"distance":110},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 23:20:43","input":{"distance":110},"output":{"led":"yellow"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 23:20:45","input":{"distance":110},"output":{"led":"red"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 23:20:46","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-16 23:21:05","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"50","green":"90"},"modus":"adult"},{"time":"2016-05-16 23:21:08","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"30","green":"70"},"modus":"grandpa"},{"time":"2016-05-16 23:21:20","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"50","green":"90"},"modus":"adult"},{"time":"2016-05-16 23:21:37","input":{"distance":110},"output":{"led":"yellow"},"settings":{"red":"25","green":"163"},"modus":"adult"},{"time":"2016-05-16 23:25:56","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"30","green":"70"},"modus":"grandpa"},{"time":"2016-05-18 20:17:45","input":{"distance":110},"output":{"led":"yellow"},"settings":{"red":"30","green":"135"},"modus":"grandpa"},{"time":"2016-05-18 20:17:48","input":{"distance":110},"output":{"led":"yellow"},"settings":{"red":"52","green":"135"},"modus":"grandpa"},{"time":"2016-05-18 20:17:59","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"50","green":"90"},"modus":"adult"},{"time":"2016-05-18 20:18:03","input":{"distance":110},"output":{"led":"yellow"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-18 20:18:06","input":{"distance":110},"output":{"led":"yellow"},"settings":{"red":"70","green":"120"},"modus":"custom"},{"time":"2016-05-18 20:18:15","input":{"distance":110},"output":{"led":"yellow"},"settings":{"red":"60","green":"149"},"modus":"custom"},{"time":"2016-05-18 20:19:35","input":{"distance":110},"output":{"led":"yellow"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-18 20:19:36","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"50","green":"90"},"modus":"adult"},{"time":"2016-05-18 20:19:37","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"30","green":"70"},"modus":"grandpa"},{"time":"2016-05-18 20:19:39","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"30","green":"70"},"modus":"custom"},{"time":"2016-05-18 20:19:54","input":{"distance":110},"output":{"led":"yellow"},"settings":{"red":"70","green":"120"},"modus":"child"},{"time":"2016-05-18 20:19:57","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"50","green":"90"},"modus":"adult"},{"time":"2016-05-18 20:20:00","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"30","green":"70"},"modus":"grandpa"},{"time":"2016-05-18 20:20:28","input":{"distance":110},"output":{"led":"yellow"},"settings":{"red":"50","green":"171"},"modus":"grandpa"},{"time":"2016-05-18 20:21:07","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"50","green":"171"},"modus":"grandpa"},{"time":"2016-05-18 20:21:08","input":{"distance":110},"output":{"led":"yellow"},"settings":{"red":"50","green":"171"},"modus":"grandpa"},{"time":"2016-05-18 20:21:08","input":{"distance":110},"output":{"led":"red"},"settings":{"red":"50","green":"171"},"modus":"grandpa"},{"time":"2016-05-18 20:21:11","input":{"distance":110},"output":{"led":"yellow"},"settings":{"red":"50","green":"171"},"modus":"grandpa"},{"time":"2016-05-18 20:21:14","input":{"distance":110},"output":{"led":"green"},"settings":{"red":"50","green":"171"},"modus":"grandpa"}]
+[
+    {
+        "time": "2016-05-16 16:49:36",
+        "input": {
+            "distance": 40
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 17:06:26",
+        "input": {
+            "distance": 60
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "50",
+            "green": "90"
+        },
+        "modus": "adult"
+    },
+    {
+        "time": "2016-05-16 17:10:37",
+        "input": {
+            "distance": 20
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 17:30:48",
+        "input": {
+            "distance": 80
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 17:45:10",
+        "input": {
+            "distance": 70
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "custom"
+    },
+    {
+        "time": "2016-05-16 18:00:21",
+        "input": {
+            "distance": 50
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 18:30:36",
+        "input": {
+            "distance": 120
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 19:00:01",
+        "input": {
+            "distance": 150
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "50",
+            "green": "90"
+        },
+        "modus": "adult"
+    },
+    {
+        "time": "2016-05-16 19:30:06",
+        "input": {
+            "distance": 70
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 19:45:17",
+        "input": {
+            "distance": 40
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "50",
+            "green": "90"
+        },
+        "modus": "adult"
+    },
+    {
+        "time": "2016-05-16 20:01:51",
+        "input": {
+            "distance": 100
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 20:15:51",
+        "input": {
+            "distance": 70
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 20:30:51",
+        "input": {
+            "distance": 75
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 20:45:51",
+        "input": {
+            "distance": 90
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 20:55:51",
+        "input": {
+            "distance": 40
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 21:02:01",
+        "input": {
+            "distance": 90
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "50",
+            "green": "90"
+        },
+        "modus": "adult"
+    },
+    {
+        "time": "2016-05-16 21:05:09",
+        "input": {
+            "distance": 100
+        },
+        "output": {
+            "led": "yellow"
+        },
+        "settings": {
+            "red": "30",
+            "green": "70"
+        },
+        "modus": "grandpa"
+    },
+    {
+        "time": "2016-05-16 21:15:17",
+        "input": {
+            "distance": 30
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 21:30:02",
+        "input": {
+            "distance": 80
+        },
+        "output": {
+            "led": "yellow"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    },
+    {
+        "time": "2016-05-16 22:00:48",
+        "input": {
+            "distance": 110
+        },
+        "output": {
+            "led": "red"
+        },
+        "settings": {
+            "red": "70",
+            "green": "120"
+        },
+        "modus": "child"
+    }
+]
