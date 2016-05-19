@@ -195,6 +195,13 @@ body, html {
     font-family: 'Roboto', sans-serif;
 }
 
+.chart p {
+  color: #4F5261;
+  font-family: arial;
+  font-size: .7em;
+  margin: 0 0 2em 1.5em;
+}
+
 .bottom {
     display: flex;
     flex-direction: row;
