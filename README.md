@@ -307,6 +307,6 @@ All data send to the server is stored in JSON files. The API delivers 3 kinds of
 
 ### Demo
 
-A demo of this project is available at: [iot.fons.alleenmedia.nl](http://www.iot.fons.alleenmedia.nl)
+A demo of this project is available at: [http://146.185.150.229/](http://146.185.150.229/)
 
 ##### Edited by: Fons Hettema
