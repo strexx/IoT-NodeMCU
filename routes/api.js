@@ -23,7 +23,7 @@ router.post('/', function(req, res) {
             var ledValue = "green";
         } else if (distance > settingsRed && distance < settingsGreen) {
             var ledValue = "yellow";
-        } else if (distance < settingsRed) {
+        } else {
             var ledValue = "red";
         }
 
