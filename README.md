@@ -218,12 +218,12 @@ This will adapt the custom settings which can be managed at the settings page.
 **Child mode**
 
 This is a pre defined mode that has it's own range standards that is best for children.
-The grandpa mode now uses a 70 cm minimal range and a 120 cm maximum range.
+The child mode now uses a 70 cm minimal range and a 120 cm maximum range.
 
 **Adult mode**
 
 This is a pre defined mode that has it's own range standards that is best for adults.
-The grandpa mode now uses a 50 cm minimal range and a 90 cm maximum range.
+The adult mode now uses a 50 cm minimal range and a 90 cm maximum range.
 
 **Grandpa mode**
 
